@@ -6376,7 +6376,7 @@ typedef enum _SYMCRYPT_ECKEY_PRIVATE_FORMAT {
 // For DivHTimesH and TimesH formats the total number of bits is the # bits of |E|-1.
 //
 // Note: as GOrd must be prime, #bits(Gord) == #bits(Gord-1). The same is true
-// for |E|=h*GOrd as it can not be a power of 2.
+// for |E|=h*GOrd as it cannot be a power of 2.
 //
 // The HighBitRestrictionNumOfBits field is a value between 0 and 32 (inclusive)
 // and specifies how many bits of the HighBitRestrictionValue are used (starting
