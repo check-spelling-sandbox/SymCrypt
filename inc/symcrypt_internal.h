@@ -25,8 +25,8 @@
 //==============================================================================================
 
 #define SYMCRYPT_PLATFORM_WINDOWS 0
-#define SYMCRYPT_PLATFORM_APPLE   0 // MacOS and other Apple platforms
-#define SYMCRYPT_PLATFORM_UNIX    0 // Linux and other Unix-likes, besides MacOS. Must support POSIX.
+#define SYMCRYPT_PLATFORM_APPLE   0 // macOS and other Apple platforms
+#define SYMCRYPT_PLATFORM_UNIX    0 // Linux and other Unix-likes, besides macOS. Must support POSIX.
 
 #if defined(_WIN32)
     #undef  SYMCRYPT_PLATFORM_WINDOWS
