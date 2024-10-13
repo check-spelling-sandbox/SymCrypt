@@ -273,7 +273,7 @@ We have bounds
     U  < 4
     T4 < 3*(2^32-1)(2^28-1) + (L-1)*(2^28-1) + 2^30, multiple of 4
 
-Now we are ready to perform the modulo reduction. Because P = 2^130 - 5 we have for any any value X 
+Now we are ready to perform the modulo reduction. Because P = 2^130 - 5 we have for any value X 
     X*2^130 mod P = 5*X mod P
 because 2^130 = 5 mod P
 Or, if X is a multiple of 4 then
