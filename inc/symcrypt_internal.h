@@ -2101,7 +2101,7 @@ typedef const SYMCRYPT_ECPOINT * PCSYMCRYPT_ECPOINT;
 #define SYMCRYPT_BYTES_FROM_BITS(bits)          ( ( (bits) + 7 ) / 8 )
 
 // The maximum number of bits in any integer value that the library supports. If the
-// caller's input exceed this bound then the the integer object will not be created.
+// caller's input exceed this bound then the integer object will not be created.
 // The caller either must ensure the bound is not exceeded, or check for NULL before
 // using created SymCrypt objects.
 // The primary purpose of this limit is to avoid integer overflows in size computations.

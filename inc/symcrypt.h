@@ -2249,7 +2249,7 @@ SymCryptParallelSha512Selftest(void);
 //      _Inout_                                     PSYMCRYPT_XXX_STATE  pState,
 //      _Out_writes_( SYMCRYPT_XXX_RESULT_SIZE )    PBYTE                pbResult );
 //
-//      Returns the MAC result of the the state.
+//      Returns the MAC result of the state.
 //      If the state was newly initialized this returns the MAC of the empty string
 //      using the key specified in the SymCryptXxxInit call.
 //      If one or more SymCryptXxxAppend function calls were made on this state

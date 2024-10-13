@@ -1875,7 +1875,7 @@ SymCryptModExp(
 //              bitsize of the modulus.
 //          -   nBitsExp = max(1, SymCryptIntBitsizeOfValue( piExp )) => This processes
 //              the bits of the exponent ignoring the leading zeros. Therefore, this
-//              option leaks the the bitsize of the value of the exponent.
+//              option leaks the bitsize of the value of the exponent.
 //
 
 // SYMCRYPT_MODMULTIEXP_MAX_NBASES, _NBITSEXP: The maximum number of bases
@@ -3004,7 +3004,7 @@ SymCrypt802_11SaeCustomCommitCreate(
     _Out_writes_( 32 )      PBYTE                               pbCommitScalar,
     _Out_writes_( 64 )      PBYTE                               pbCommitElement );
 //
-// Compute the the commit-scalar and commit-element values for the Commit message.
+// Compute the commit-scalar and commit-element values for the Commit message.
 // This function does not update the pState and is multi-thread safe w.r.t. the pState object.
 //
 //  - pState            Protocol state that was initialized with SymCrypt802_11SaeCustomInit().
@@ -3023,7 +3023,7 @@ SymCrypt802_11SaeCustomCommitCreateGeneric(
 //
 // Generic version of the SymCrypt802_11SaeCustomCommitCreate() function that uses the
 // state object to determine which elliptic curve group is selected.
-// Compute the the commit-scalar and commit-element values for the Commit message.
+// Compute the commit-scalar and commit-element values for the Commit message.
 // This function does not update the pState and is multi-thread safe w.r.t. the pState object.
 //
 //  - pState                            Protocol state that was initialized with SymCrypt802_11SaeCustomInit().
