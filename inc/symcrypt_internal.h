@@ -2137,7 +2137,7 @@ typedef const SYMCRYPT_ECPOINT * PCSYMCRYPT_ECPOINT;
 
 //
 // Type fields contain the following:
-// lower 16 bits: offset into virtual table table (if any)
+// lower 16 bits: offset into virtual table (if any)
 // upper 16 bits: bits 16-23: 1-character object type. Bits 24-31: 1 char implementation type
 // The upper bits allow objects to be recognized in memory, making debugging easier.
 //
