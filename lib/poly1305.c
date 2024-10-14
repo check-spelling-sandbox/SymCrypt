@@ -245,7 +245,7 @@ a4r3 a3r3 a2r3 a1r3 a0r3                 +
                     -------------------
                   U   V3   V2   V1   V0
 
-At the top you see A and R with the 5*4 digit products arranged in colums.
+At the top you see A and R with the 5*4 digit products arranged in columns.
 The S values are the sums of the product columns without any carries.
 Because the r values are <2^28 and a4 < L we have
 
