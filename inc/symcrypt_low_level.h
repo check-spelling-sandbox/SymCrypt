@@ -2066,7 +2066,7 @@ SymCryptMask32LtU31( UINT32 a, UINT32 b );
 
 
 //
-// Other helper funcions
+// Other helper functions
 //
 SIZE_T
 SYMCRYPT_CALL
