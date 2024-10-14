@@ -144,7 +144,7 @@ SymCryptParallelSha512Result1(
 
     UNREFERENCED_PARAMETER( pParHash );
     //
-    // Function is called when a Result is requested from a parallel hashs state.
+    // Function is called when a Result is requested from a parallel hash state.
     // Do the first step of the padding.
     //
     pState->buffer[bytesInBuffer++] = 0x80;
