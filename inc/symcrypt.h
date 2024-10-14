@@ -758,7 +758,7 @@ SymCryptEqual(
 // for any hash algorithm.
 // Virtual table addresses that callers can use are supplied through a const-ptr-const definition.
 // This supports an application switching the underlying implementation of one algorithm
-// without the need to re-compile all the intermediate libraries inbetween.
+// without the need to re-compile all the intermediate libraries in between.
 // For example, you could use the same signature verification library with the fast hash implementation in one binary,
 // and with a compact hash implementation in a second binary, without needing a different
 // signature verification library.
