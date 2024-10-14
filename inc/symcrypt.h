@@ -6372,7 +6372,7 @@ typedef enum _SYMCRYPT_ECKEY_PRIVATE_FORMAT {
 //     - Bit position of the lowest bit to be specified (starting from 0 for the LSB)
 //     - The bit values
 // The bits that are specified refer to the relevant secret key format.
-// For Canonincal and DivH formats the total number of bits is the # bits of GOrd-1.
+// For Canonical and DivH formats the total number of bits is the # bits of GOrd-1.
 // For DivHTimesH and TimesH formats the total number of bits is the # bits of |E|-1.
 //
 // Note: as GOrd must be prime, #bits(Gord) == #bits(Gord-1). The same is true
