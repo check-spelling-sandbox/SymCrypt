@@ -163,7 +163,7 @@ SymCryptGHashAppendDataXmm(
 
         //
         // The amd64 compiler can't optimize array indices in a loop where
-        // you use _mm intrinics,
+        // you use _mm intrinsics,
         // so we do all the pointer arithmetic for the compiler.
         //
         p = &expandedKeyTable[0];
