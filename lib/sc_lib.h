@@ -2198,7 +2198,7 @@ SymCryptFdefMaskedCopy(
 // Copies Src to Dst under mask.
 // Requirements:
 //  - mask == 0 or mask == 0xffffffff
-//  - cbData must be a multple of the size of a digit, or a multiple of the size of a ModElement.
+//  - cbData must be a multiple of the size of a digit, or a multiple of the size of a ModElement.
 //  - pbSrc and pbDst must be SYMCRYPT_ALIGNed
 // if mask == 0 this function does nothing.
 // if mask == 0xffffffff this function is a memcpy from Src to Dst.
@@ -2218,7 +2218,7 @@ SymCryptFdefConditionalSwap(
 // Swaps the bytes of Src1 with the bytes of Src2 under a condition.
 // Requirements:
 //  - cond = 0 or cond = 1 .
-//  - cbData must be a multple of the size of a digit, or a multiple of the size of a ModElement.
+//  - cbData must be a multiple of the size of a digit, or a multiple of the size of a ModElement.
 //  - pbSrc1 and pbSrc2 must be SYMCRYPT_ALIGNed
 // if cond == 0 this function does nothing.
 // if cond == 1 this function swaps the bytes of Src1 with the bytes of Src2.
