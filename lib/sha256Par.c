@@ -645,7 +645,7 @@ SymCryptParallelSha256AppendBlocks_xmm(
     int r;
 
     //
-    // The chaining state can be unaligned on x86, so we use unalgned loads
+    // The chaining state can be unaligned on x86, so we use unaligned loads
     //
 
     T0 = _mm_loadu_si128( (__m128i *)&pChain[0]->H[0] );
