@@ -137,7 +137,7 @@ The bits b_0, b_1, ..., b_127 represent the polynomial b_0 + b_1 * x + ... + b_1
 This means that the most significant bit in each byte is actually the least significant bit in the
 polynomial.
 
-SSE CPUs use the LSBFirst convention. This means that the bits b_0, b_1, ..., b_127 of the polynimial
+SSE CPUs use the LSBFirst convention. This means that the bits b_0, b_1, ..., b_127 of the polynomial
 end up at positions 7, 6, 5, ..., 1, 0, 15, 14, ..., 9, 8, 23, 22, ... of our XMM register.
 This is obviously not a useful representation to do arithmetic in.
 The first step is to BSWAP the value so that the bits appear in pure reverse order.
