@@ -61,7 +61,7 @@ given a 256-bit value (C,D) representing C x^128 + D we compute
     R := D + T0 + T1 + (T1 << 1) + (T1 << 2) + (T1 << 7)
 
 (T1,T0) is just the value C x^128 reduced one step modulo p(x).The value T1 is at most 7 bits,
-so in the next step the reduciton, which computes the result R, is easy. The
+so in the next step the reduction, which computes the result R, is easy. The
 expression T1 + (T1 << 1) + (T1 << 2) + (T1 << 7) is just T1 * x^128 reduced modulo p(x).
 
 Let's first get rid of the polynomial arithmetic and write this completely using shifts on
