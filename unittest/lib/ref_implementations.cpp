@@ -423,7 +423,7 @@ addRefAlgs()
     SymCryptInit();
 
     //
-    // We use a tempate function to decide which algorithm implementations to
+    // We use a template function to decide which algorithm implementations to
     // run.
     // We could make each algorithm auto-register using static initializers,
     // but this is test code and we want to be able to test (and dynamically disable)
