@@ -6224,7 +6224,7 @@ SymCryptCallbackReleaseMutexFastInproc( _Inout_ PVOID pMutex );
 // SYMCRYPT_RSAKEY       A key that stores the information for the RSA algorithms (encryption and signing).
 //                       It always contains the RSA parameters / public key, and may or may not contain
 //                       the associated private key.
-// SYMCRYPT_DLGROUP      A discrete log group to be used for the DSA and DH algorithmms. It contains the
+// SYMCRYPT_DLGROUP      A discrete log group to be used for the DSA and DH algorithms. It contains the
 //                       group parameters (P,[Q],G) (The prime Q is optional).
 // SYMCRYPT_DLKEY        A "discrete log" key that stores the information for the DSA and DH algorithms. It
 //                       always contains a public key, and may or may not contain the associated private key.
