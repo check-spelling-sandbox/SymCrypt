@@ -1386,7 +1386,7 @@ typedef const SYMCRYPT_HMAC_SHA3_512_STATE *PCSYMCRYPT_HMAC_SHA3_512_STATE;
 //
 // SYMCRYPT_AES_EXPANDED_KEY
 //
-// Expanded key for AES operattions.
+// Expanded key for AES operations.
 //
 typedef SYMCRYPT_ALIGN_STRUCT _SYMCRYPT_AES_EXPANDED_KEY {
     SYMCRYPT_ALIGN BYTE RoundKey[29][4][4];
