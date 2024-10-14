@@ -8233,7 +8233,7 @@ SymCryptEcDhSecretAgreementSelftest(void);
 //  XMSS uses WOTS+ as the one-time-signature (OTS) scheme. Public key consists
 //  of two parts; Merkle-tree hash of OTS public keys called the Root, and a Seed value
 //  used in in hash computations. The private key consists of SK_XMSS which is
-//  used to deterministacally create OTS keys, SK_PRF which is used to generate 
+//  used to deterministically create OTS keys, SK_PRF which is used to generate 
 //  the randomizer for hashing, and an integer Idx is used to select the next OTS key
 //  for signing.
 // 
