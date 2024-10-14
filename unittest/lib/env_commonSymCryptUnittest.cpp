@@ -102,7 +102,7 @@ typedef SYMCRYPT_ALIGN_STRUCT _SYMCRYPT_ENV_XMM_SAVE_DATA_REGS {
     //
     // The alignment on x86 is only 4, so we can't align the __m128i fields properly.
     // We add some padding and let the assembler code adjust the alignment of the actual data.
-    // This is all transperant to the C code
+    // This is all transparent to the C code
     //
     __m128i xmm[8];         // 8 for the XMM registers.
     SYMCRYPT_MAGIC_FIELD
