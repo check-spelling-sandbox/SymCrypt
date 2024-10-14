@@ -400,7 +400,7 @@ RefIsPrime(
     _Out_writes_bytes_( cbScratch ) PBYTE           pbScratch,
                                     SIZE_T          cbScratch )
 {
-    // Just iterate the probabalistic test 64 times to achieve an error rate of 2^-128.
+    // Just iterate the probabilistic test 64 times to achieve an error rate of 2^-128.
     for( int i=0; i<64; i++ )
     {
         if( !RefIsPossiblePrime( piSrc, pbScratch, cbScratch ) )
