@@ -324,7 +324,7 @@ SymCryptAesCreateRotatedTables( _Inout_ BYTE MatrixMult[4][256][4] )
 // All invocations will write the same data to the table, and within a tread each entry is written
 // before it is read. Doing parallel initializations of the same table can be very inefficient
 // as multiple cores will be fighting over the cache lines, but the result will be correct.
-// We use this property to initialize the tables lazilly.
+// We use this property to initialize the tables lazily.
 //
 static
 VOID
