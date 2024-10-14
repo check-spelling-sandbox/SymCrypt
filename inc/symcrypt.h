@@ -4294,7 +4294,7 @@ SymCryptPaddingPkcs7Remove(
 //
 // Note: Removal of PKCS7 padding is extremely sensitive to side channels.
 // For example, if a message is encrypted with AES-CBC and the attacker can modify
-// the ciphertext and then determine whether a padding error occurrs during decryption,
+// the ciphertext and then determine whether a padding error occurs during decryption,
 // then the attacker can use the presence or absence of the error to decrypt the message itself.
 // This function takes great care not to reveal whether an error occurred, and hides
 // the size of the unpadded message. This is even true when writing to pbDst. If cbDst is large
