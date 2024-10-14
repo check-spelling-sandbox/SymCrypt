@@ -364,7 +364,7 @@ enum{
 
 //
 // These implementations are optimized for inlining, especially when the
-// size of the data to be convered is a compile-time constant.
+// size of the data to be converted is a compile-time constant.
 //
 
 //
