@@ -8496,7 +8496,7 @@ SymCryptXmsskeyGenerate(
 // Return values:
 // 
 //      - SYMCRYPT_NO_ERROR
-//      On successfull key generation
+//      On successfully key generation
 // 
 //      - SYMCRYPT_MEMORY_ALLOCATION_FAILURE
 //      If there is not enough memory to perform key generation
@@ -8678,7 +8678,7 @@ SymCryptXmssSign(
 //
 //  Return values:
 //      
-//      - SYMCRYPT_NO_ERROR on successfull signature generation
+//      - SYMCRYPT_NO_ERROR on successfully signature generation
 // 
 //      - SYMCRYPT_INVALID_ARGUMENT 
 //      If flags parameter is invalid,
