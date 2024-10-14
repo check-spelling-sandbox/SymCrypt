@@ -385,7 +385,7 @@ SymCryptParallelSha256SetNextWork( PSYMCRYPT_PARALLEL_HASH_SCRATCH_STATE pScratc
 
                 //
                 // We don't parallelize the processing of the first block to get to the whole-block state.
-                // It would mean we get a 1-size block up front, and that interferes with the sorted schedulign
+                // It would mean we get a 1-size block up front, and that interferes with the sorted scheduling
                 // we do. This is not a common case, and we document that this is inefficient.
                 //
                 if( (pState->internalState.hashState.dataLength & (SYMCRYPT_SHA256_INPUT_BLOCK_SIZE - 1)) == 0 )
