@@ -1943,7 +1943,7 @@ SymCryptCShake256Selftest(void);
 //      overlaps various hash computations and still gains efficiency when the
 //      number of parallel hash computations increases past this bound.
 //      Note that the internal parallelism that can be used might depend
-//      on the CPU features availalbe, so this value is only an upper bound.
+//      on the CPU features available, so this value is only an upper bound.
 //      We recommend that callers provide as much parallelism as practical,
 //      and let the library perform the optimal sequence of computations.
 //
