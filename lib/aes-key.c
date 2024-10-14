@@ -307,7 +307,7 @@ SymCryptAesCreateRotatedTables( _Inout_ BYTE MatrixMult[4][256][4] )
 // Initialize a matrix multiplication table.
 // Each matrix multiplication table consists of 4 tables of 256 entries of 4 bytes each.
 // The four tables are rotated copies of each other.
-// This funciton generates the first of those four tables from the init
+// This function generates the first of those four tables from the init
 // value.
 //
 // After this call:

@@ -62,7 +62,7 @@ extern "C" {
 //
 //
 // MEMORY STRUCTURES
-// Most SymCrypt funcitons do not allocate any memory; all memory is provided by the caller.
+// Most SymCrypt functions do not allocate any memory; all memory is provided by the caller.
 // However, callers may not copy, move, or otherwise manipulate the SymCrypt
 // data structures. In particular, a memcpy of a SymCrypt data structure is not allowed.
 // When necessary SymCrypt provides functions to perform the necessary manipulations.
