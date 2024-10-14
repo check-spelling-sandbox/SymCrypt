@@ -3460,7 +3460,7 @@ testTrialDivision()
 
 
 //==================================================
-// Simple test functions used for debuggins
+// Simple test functions used for debugging
 //
 
 VOID
