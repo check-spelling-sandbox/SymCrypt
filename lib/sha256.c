@@ -514,7 +514,7 @@ LSIGMA1( UINT32 x )
 //
 // r16 is the round number mod 16, r is the round number.
 // r16 is a separate macro argument because it is always a compile-time constant
-// which allows much better optimisations of the memory accesses.
+// which allows much better optimizations of the memory accesses.
 //
 // ah[ r16   &7] = h
 // ah[(r16+1)&7] = g;

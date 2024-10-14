@@ -3763,7 +3763,7 @@ SymCryptAesCtrMsb64(
 // We solve this by letting the caller specify a bitmask of modes to be tested.
 // Under the following circumstances this will avoid pulling in unnecessary code:
 // - The argument is a compile-time constant.
-// - The compiler implements the usual constant propagation optimizatoins.
+// - The compiler implements the usual constant propagation optimizations.
 //
 // Note: GCM, CCM, and XTS are NOT tested by this function.
 
