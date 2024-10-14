@@ -498,7 +498,7 @@ SymCryptDlgroupGeneratePrimeP_FIPS(
         goto cleanup;
     }
 
-    // If the standard is 186-2 add 1 since the strating offset is 2
+    // If the standard is 186-2 add 1 since the starting offset is 2
     if (pDlgroup->eFipsStandard == SYMCRYPT_DLGROUP_FIPS_186_2)
     {
         carry = SymCryptIntAddUint32( piPersistent, 1, piPersistent );
