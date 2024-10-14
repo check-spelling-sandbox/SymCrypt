@@ -7,7 +7,7 @@
 
 #include "precomp.h"
 
-// Miller-Rabin iterarions for prime generation
+// Miller-Rabin iterations for prime generation
 #define DLGROUP_MR_ITERATIONS       (64)
 
 // Default size for Q according to FIPS 186-3
