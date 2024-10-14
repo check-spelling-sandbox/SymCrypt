@@ -5439,7 +5439,7 @@ SymCryptHkdfSelfTest(void);
 //
 // Single-Step KDF as specified in SP800-56C section 4.
 //
-// SSKDF requires an auxilary function H. This can be approved hash function,
+// SSKDF requires an auxiliary function H. This can be approved hash function,
 // HMAC with an approved hash function, or KMAC. The approved hash functions
 // are listed in SP800-56C section 7.
 //
