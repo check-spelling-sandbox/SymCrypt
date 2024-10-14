@@ -6470,7 +6470,7 @@ typedef enum _SYMCRYPT_ECPOINT_FORMAT {
 //                                      SIZE_T  cbBuffer,
 //                                      <size parameters> );
 //  Create an XXX object from the provided (pbBuffer, cbBuffer) space.
-//  This function performs the necessary initializations of the object, but does not assing or set a value.
+//  This function performs the necessary initializations of the object, but does not assign or set a value.
 //  The object will be able to store values up to size determined by the <size parameters>.
 //  Requirement:
 //      - pbBuffer is aligned to SYMCRYPT_ASYM_ALIGN_VALUE. Note that this can be a stricter requirement than
