@@ -6027,7 +6027,7 @@ SymCryptXtsAesSelftest(void);
 // - It verifies the HMAC in the data structure above.
 // - This is done in a side-channel safe manner, not revealing anything except whether the structure is valid or not.
 // This means that the HMAC computation over the plaintext is constant-time and constant-memory-access pattern
-// irrepective of the padding_length; thus this is a fixed-time implementation for variable-sized inputs.
+// irrespective of the padding_length; thus this is a fixed-time implementation for variable-sized inputs.
 // Similarly, the MAC value has to be extracted from a variable location in the input using a fixed memory access
 // pattern.
 //
