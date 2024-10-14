@@ -2040,7 +2040,7 @@ SymCryptScsCopy(
 //      U31     UINT32 which is limited to values < 2^31
 //              This allows more efficient masking functions.
 //      U32     UINT32
-// Other mask types, operations, and paramter types may be defined in future.
+// Other mask types, operations, and parameter types may be defined in future.
 //
 
 UINT32
@@ -2960,8 +2960,8 @@ SymCrypt802_11SaeCustomInitH2E(
 // - pState                     Protocol state
 // - pbPT                       PT value calculated using SymCrypt802_11SaeCustomCreatePT()
 // - pbMacA, pbMacB             Two 6-byte MAC addresses
-// - pbRand                     Optional pointer to Rand buffer. See SymCrypt802_11SaeCustomInit() documentation for the use of this paameter.
-// - pbMask                     Optional pointer to Mask buffer. See SymCrypt802_11SaeCustomInit() documentation for the use of this paameter.
+// - pbRand                     Optional pointer to Rand buffer. See SymCrypt802_11SaeCustomInit() documentation for the use of this parameter.
+// - pbMask                     Optional pointer to Mask buffer. See SymCrypt802_11SaeCustomInit() documentation for the use of this parameter.
 //
 // See the comment on SymCrypt802_11SaeCustomInit() for more details about the pbRand and pbMask
 // parameters.
@@ -2991,8 +2991,8 @@ SymCrypt802_11SaeCustomInitH2EGeneric(
 // - pbPT, cbPT                 PT value (as a byte array) calculated using SymCrypt802_11SaeCustomCreatePTGeneric().
 //                              PT must be generated on the same elliptic curve as the one supplied in the group parameter.
 // - pbMacA, pbMacB             Two 6-byte MAC addresses
-// - pbRand, cbRand             Optional Rand buffer. See SymCrypt802_11SaeCustomInit() documentation for the use of this paameter.
-// - pbMask, cbMask             Optional Mask buffer. See SymCrypt802_11SaeCustomInit() documentation for the use of this paameter.
+// - pbRand, cbRand             Optional Rand buffer. See SymCrypt802_11SaeCustomInit() documentation for the use of this parameter.
+// - pbMask, cbMask             Optional Mask buffer. See SymCrypt802_11SaeCustomInit() documentation for the use of this parameter.
 //
 // See the comment on SymCrypt802_11SaeCustomInit() for more details about the pbRand and pbMask
 // parameters.
