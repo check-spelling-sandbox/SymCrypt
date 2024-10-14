@@ -2956,7 +2956,7 @@ extern const PCSYMCRYPT_MAC SymCryptAesCmacAlgorithm;
 //    state into XOF mode and all the successive calls that generate output from the KMAC state will be
 //    from the XOF mode. SymCryptKmacXxxResult and SymCryptKmacXxxResultEx functions
 //    will also generate output in XOF mode IF they are called after a SymCryptKmacXxxExtract
-//    function with bWipe=FALSE (so that the state ramains in XOF mode). Note that
+//    function with bWipe=FALSE (so that the state remains in XOF mode). Note that
 //    SymCryptKmacXxxResult and SymCryptKmacXxxResultEx functions wipe the state afterwards,
 //    thus KMAC state can only be used to generate output in XOF mode once with these two functions.
 //
