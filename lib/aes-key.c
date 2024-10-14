@@ -111,7 +111,7 @@ SymCryptAesExpandKeyInternal(
         p = (BYTE *)&pExpandedKey->RoundKey[0] + 24;
 
         //
-        // We have 12 rounds, 13 round keys, and 13*16 = 208 bytes of encrytion key to generate.
+        // We have 12 rounds, 13 round keys, and 13*16 = 208 bytes of encryption key to generate.
         // We have 24 already, so we need 184 more.
         // Each iteration produces 24 bytes, so we need to loop 8 times.
         //
@@ -142,7 +142,7 @@ SymCryptAesExpandKeyInternal(
         p = (BYTE *)&pExpandedKey->RoundKey[0] + 32;
 
         //
-        // We have 14 rounds, 15 round keys, and 15*16 = 240 bytes of encrytion key to generate.
+        // We have 14 rounds, 15 round keys, and 15*16 = 240 bytes of encryption key to generate.
         // We have 32 already, so we need 208 more.
         // Each iteration produces 32 bytes, so we need to loop 6.5 times.
         //
