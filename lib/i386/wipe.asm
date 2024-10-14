@@ -55,7 +55,7 @@ _TEXT   SEGMENT PARA PUBLIC USE32 'CODE'
         ; edx = cbData
 
         ;       
-        ; This function will handle any alginment of pbData and any size, but it is optimized for 
+        ; This function will handle any alignment of pbData and any size, but it is optimized for 
         ; the case where pbData is 4-aligned, and cbData is a multiple of 4.
         ;
         
