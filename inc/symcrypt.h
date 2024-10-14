@@ -5180,7 +5180,7 @@ SymCryptSshKdfExpandKey(
 //      - pHashFunc     :   Hash function that will be used in the key derivation.
 //                          This function is saved in SYMCRYPT_SSHKDF_EXPANDED_KEY
 //                          so that it is also used by the SymCryptSshKdfDerive function.
-//      - pbKey, cbKey  :   Buffer contatining the secret key for the KDF.
+//      - pbKey, cbKey  :   Buffer containing the secret key for the KDF.
 //
 // Returns SYMCRYPT_NO_ERROR
 //
@@ -5280,7 +5280,7 @@ SymCryptSrtpKdfExpandKey(
 // Parameters:
 //      - pExpandedKey  :   Pointer to a SYMCRYPT_SRTPKDF_EXPANDED_KEY structure that
 //                          will contain the expanded key after the function returns.
-//      - pbKey, cbKey  :   Buffer contatining the secret key for the KDF. cbKey must be
+//      - pbKey, cbKey  :   Buffer containing the secret key for the KDF. cbKey must be
 //                          a valid AES key size (16-, 24-, or 32-bytes).
 //
 // Returns:
