@@ -25,7 +25,7 @@ developertest()
 {
     //
     // This function is called before the main testing begins.
-    // It is primarilly used during development of new code to run the test code
+    // It is primarily used during development of new code to run the test code
     // without having to wait for all the other things to run.
     //
     // Note: there is also a DeveloperTest algorithm that can be used for developer performance
