@@ -2006,7 +2006,7 @@ SymCryptCShake256Selftest(void);
 //      in the SYMCRYPT_PARALLEL_HASH_OPERATION structure; none of the documented fields
 //      (iHash, hashOperation, pbBuffer, cbBuffer) are modified.
 //      The scratch fields are used purely within one call to this function, their value does not have to be
-//      maintained between function calls. The scratch fields to not have to be initialzed by the caller
+//      maintained between function calls. The scratch fields to not have to be initialized by the caller
 //      of this function,
 //      THREAD SAFETY: as the pOperations array is updated, it CANNOT be shared between different threads.
 //      Obviously, the same is true of pStates and pbScratch.
