@@ -4353,7 +4353,7 @@ typedef SYMCRYPT_ASYM_ALIGN_STRUCT _SYMCRYPT_XMSS_KEY
     SYMCRYPT_MAGIC_FIELD
         
     // Private key
-    SYMCRYPT_ALIGN_AT(16) UINT64  Idx;  // Aligning on 16-bytes to supress clang warning
+    SYMCRYPT_ALIGN_AT(16) UINT64  Idx;  // Aligning on 16-bytes to suppress clang warning
                                         // when atomic increment is performed on it.
     BYTE    SkXmss[SYMCRYPT_HASH_MAX_RESULT_SIZE];
     BYTE    SkPrf[SYMCRYPT_HASH_MAX_RESULT_SIZE];
