@@ -2481,7 +2481,7 @@ typedef       SYMCRYPT_RSAKEY * PSYMCRYPT_RSAKEY;
 typedef const SYMCRYPT_RSAKEY * PCSYMCRYPT_RSAKEY;
 
 //
-// The following definitions relating to trial divisoin are not needed by normal callers
+// The following definitions relating to trial division are not needed by normal callers
 // but are used by the test program to measure performance of components.
 //
 
