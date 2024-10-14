@@ -1380,7 +1380,7 @@ enum {
  */
 #define    _ELF_DEFINE_SYMBOL_FLAGS()        \
 _ELF_DEFINE_SYF(SYMINFO_FLG_DIRECT,    0x01,    \
-    "directly assocated reference")        \
+    "directly associated reference")        \
 _ELF_DEFINE_SYF(SYMINFO_FLG_COPY,    0x04,    \
     "definition by copy-relocation")    \
 _ELF_DEFINE_SYF(SYMINFO_FLG_LAZYLOAD,    0x08,    \
