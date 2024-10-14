@@ -125,8 +125,8 @@ SymCryptPoly1305Result(
 
         // Now we have to process the block, but the block function adds a trailing
         // 1 byte to each 16-byte block. We compensate for that by decrementing
-        // the higest word of the accumulator first; the 1 byte added by the block
-        // processing function has the effect of incrementing the hightest accumulator
+        // the highest word of the accumulator first; the 1 byte added by the block
+        // processing function has the effect of incrementing the highest accumulator
         // word so those two operations cancel each other out.
         pState->a[4] -= 1;
         SymCryptPoly1305ProcessBlocks( pState, pState->buf, 16 );
