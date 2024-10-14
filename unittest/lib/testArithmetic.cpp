@@ -3707,7 +3707,7 @@ VOID testCompositeModInv()
         UINT32 modFlags = 0;
         BYTE b = g_rng.byte();
 
-        /* Code to generat random flags (for when we support them)
+        /* Code to generate random flags (for when we support them)
         if( b & 1 )
         {
             if( b & 2 )
