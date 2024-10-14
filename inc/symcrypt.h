@@ -6519,7 +6519,7 @@ typedef enum _SYMCRYPT_ECPOINT_FORMAT {
 
 #define SYMCRYPT_SIZEOF_RSAKEY_FROM_PARAMS( modBits, nPrimes, nPubExps ) \
     SYMCRYPT_INTERNAL_SIZEOF_RSAKEY_FROM_PARAMS( modBits, nPrimes, nPubExps )
-// Return a buffer size large enough to create an RSA key in whith the specified
+// Return a buffer size large enough to create an RSA key in which the specified
 // modulus size, # primes, # public exponents, and upper bound for the bitsize of each public exponent.
 // If the object will only contain a public key, nPrimes can be set to 0
 
