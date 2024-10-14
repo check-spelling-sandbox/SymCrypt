@@ -335,7 +335,7 @@ testDsatestGroups( DsaImplementation  * pDsa, INT64 line )
 
         // We have a group; generate a key
         PSYMCRYPT_DLGROUP pGroup = SymCryptDlgroupAllocate( pGroupBlob->nBitsP, 8*pGroupBlob->cbPrimeQ );
-        CHECK( pGroup != NULL, "Error allocating Symcr")
+        CHECK( pGroup != NULL, "Error allocating Symcrypt")
 
         SIZE_T cbP = pGroupBlob->cbPrimeP;
 

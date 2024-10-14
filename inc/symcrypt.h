@@ -6487,7 +6487,7 @@ typedef enum _SYMCRYPT_ECPOINT_FORMAT {
 //  It is always safe to choose
 //      cbBuffer = SymCryptSizeofXxxFromYyy( <size parameters> )
 //  The returned object pointer is simply a cast of the pbBuffer pointer.
-//  Callers that manage arrays of objects can reconstruct the PSYMCYRPT_XXX by casting the buffer pointer
+//  Callers that manage arrays of objects can reconstruct the PSYMCRYPT_XXX by casting the buffer pointer
 //  to the right type.
 //  An object that is created with this function should be wiped, even if it doesn't contain private data.
 //  The SymCryptXxxWipe() function also frees any associated data that the library may maintain.
