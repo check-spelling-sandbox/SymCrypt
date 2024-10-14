@@ -2225,7 +2225,7 @@ SymCryptRsaPkcs1VerifySignaturePadding(
 //
 // Verifies that the RSA PKCS1 v1.5 signature padding is valid.
 //
-// It returns SYMCRYPT_NO_ERROR if the verification suceeded or SYMCRYPT_VERIFICATION_FAIL
+// It returns SYMCRYPT_NO_ERROR if the verification succeeded or SYMCRYPT_VERIFICATION_FAIL
 // if it failed.
 //
 // Allowed flags:

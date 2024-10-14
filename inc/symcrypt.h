@@ -7919,7 +7919,7 @@ SymCryptRsaPkcs1Verify(
 //
 // pHashOIDs points to an array of SYMCRYPT_OID and the array size is nOIDCount
 //
-// It returns SYMCRYPT_NO_ERROR if the verification suceeded or SYMCRYPT_SIGNATURE_VERIFICATION_FAILURE
+// It returns SYMCRYPT_NO_ERROR if the verification succeeded or SYMCRYPT_SIGNATURE_VERIFICATION_FAILURE
 // if it failed.
 //
 // nfSignature is the number format of the signature (i.e. the pbSignature buffer). Currently
@@ -8055,7 +8055,7 @@ SymCryptDsaVerify(
 //
 // Verifies a DSA signature using the public part of Key.
 //
-// It returns SYMCRYPT_NO_ERROR if the verification suceeded or SYMCRYPT_SIGNATURE_VERIFICATION_FAILURE
+// It returns SYMCRYPT_NO_ERROR if the verification succeeded or SYMCRYPT_SIGNATURE_VERIFICATION_FAILURE
 // if it failed.
 //
 // Allowed flags:
@@ -8153,7 +8153,7 @@ SymCryptEcDsaVerify(
 //
 // Verifies an ECDSA signature using the public part of Key.
 //
-// It returns SYMCRYPT_NO_ERROR if the verification suceeded or SYMCRYPT_SIGNATURE_VERIFICATION_FAILURE
+// It returns SYMCRYPT_NO_ERROR if the verification succeeded or SYMCRYPT_SIGNATURE_VERIFICATION_FAILURE
 // if it failed.
 //
 // Allowed flags:
