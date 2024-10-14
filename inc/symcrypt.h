@@ -4096,7 +4096,7 @@ SymCryptCbcEncrypt(
 //      encryption, on return it is the last ciphertext block. A long message can be encrypted
 //      piecewise in multiple calls; at the end of one call the pbChainingValue buffer will contain
 //      the correct chaining value for encrypting the next piece of the message.
-//      Once the encryption is fininshed the value in the chaining buffer is no longer needed.
+//      Once the encryption is finished the value in the chaining buffer is no longer needed.
 // - pbSrc is the plaintext input buffer. The plaintext and ciphertext buffers may be
 //      identical (in-place encryption) or non-overlapping, but they may not partially overlap.
 // - cbData. Number of bytes to encrypt. This must be a multiple of the block size.
