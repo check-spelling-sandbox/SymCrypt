@@ -1182,7 +1182,7 @@ SymCryptIntExtendedGcd(
 //
 // The last two modular inverse values are not true modular inverses unless GCD( Src1, Src2 ) = 1.
 //
-// Any of the ouput pointers can be NULL and then that result is not returned.
+// Any of the output pointers can be NULL and then that result is not returned.
 // Requirements:
 //  - Src1 > 0
 //  - Src2 > 0 and  Src2 odd
@@ -1251,7 +1251,7 @@ SymCryptCrtGenerateInverses(
 // The most common case is for the RSA algorithm where the inputs are 2 prime numbers P and Q
 // and only Q^{-1} mod P is needed (i.e. only the first term of the output array).
 //
-// Any of the ouput pointers in the ppeCrtInverses can be NULL and then that result
+// Any of the output pointers in the ppeCrtInverses can be NULL and then that result
 // is not returned (resulting in a faster total running time).
 //
 // The number of inputs nCoprimes and which outputs are returned is public.
