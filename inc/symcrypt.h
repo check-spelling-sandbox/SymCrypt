@@ -848,7 +848,7 @@ SymCryptHashStateCopy(
 //
 // Tha MD2 hash algorithm per RFC1319.
 //
-// The MD2 hash function has not received widespead analysis and is very slow
+// The MD2 hash function has not received widespread analysis and is very slow
 // compared to contemporary algorithms.
 //
 // The SymCrypt implementation of MD2 uses table lookups which leads to a side-channel
