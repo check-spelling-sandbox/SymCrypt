@@ -49,7 +49,7 @@ _TEXT   SEGMENT PARA PUBLIC USE32 'CODE'
         ; seems to be used fairly sloppy, with lots of arguments left 0 even when
         ; they probably shouldn't be according to the spec.
         ;
-        .FPO(0,0,0,0,0,0)       ; 3 byte prolog (covers esp ajustment only)
+        .FPO(0,0,0,0,0,0)       ; 3 byte prolog (covers esp adjustment only)
         
         ; ecx = pbData
         ; edx = cbData
