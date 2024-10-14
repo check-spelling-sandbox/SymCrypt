@@ -2875,7 +2875,7 @@ SymCrypt802_11SaeCustomInit(
 // - pbMacA, pbMacB             Two 6-byte MAC addresses with MacA >= MacB.
 // - pbPassword, cbPassword     The password buffer
 // - pbCounter                  If not NULL, receives the counter value of the
-//                              successful PWE genration per section 12.4.4.2.2
+//                              successful PWE generation per section 12.4.4.2.2
 // - pbRand                     Optional pointer to Rand buffer (see below)
 // - pbMask                     Optional pointer to Mask buffer (see below)
 //
