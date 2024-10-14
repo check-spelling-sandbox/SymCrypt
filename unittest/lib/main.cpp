@@ -1084,7 +1084,7 @@ getCustomResource( _In_ PSTR resourceName, _In_ PSTR resourceType )
     CHECK( resourceHandle != NULL, "Failed to find resource" );
 
     resourceDataHandle = LoadResource( NULL, resourceHandle );
-    CHECK( resourceDataHandle != NULL, "Failed to laod resource" );
+    CHECK( resourceDataHandle != NULL, "Failed to load resource" );
 
     cbData = SizeofResource( NULL, resourceHandle );
     CHECK( cbData != 0, "?" );
