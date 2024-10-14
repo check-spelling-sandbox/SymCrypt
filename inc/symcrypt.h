@@ -8724,7 +8724,7 @@ SymCryptXmssVerify(
 //  Return values:
 // 
 //      - SYMCRYPT_NO_ERROR
-//      If signature verification succeeeds
+//      If signature verification succeeds
 // 
 //		- SYMCRYPT_INVALID_ARGUMENT
 //		If flags is invalid or cbSignature is of incorrect size
