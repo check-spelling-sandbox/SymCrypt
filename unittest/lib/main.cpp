@@ -663,7 +663,7 @@ usage()
             "  rngseed=xxxxxxxx  Set seed for test RNG algorithm, default = 0 = random\n"
             "  sizes:<startSize>,<endSize>,<sizeIncrement>,<numberOfRepetitions>\n"
             "                    Run algorithms for dataSizes specified at the command line, rather\n"
-            "                    than using using the sizes built into the unit tests and performing\n"
+            "                    than using the sizes built into the unit tests and performing\n"
             "                    a linear regression. All parameters are unsigned decimal integers.\n"
             "                    Only a prefix of the parameters needs to be specified - i.e. sizes:1024\n"
             "                    tests specified algorithms/implementations at only a dataSize of 1024\n"
