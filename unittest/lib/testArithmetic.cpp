@@ -801,7 +801,7 @@ ArithInt *
 randomArithInt( SIZE_T nD, UINT32 nFail = 0 )
 //
 // Returns a random ArithInt. nFails is a parameter that the caller can pass to indicate how often
-// the result was unsatisfactorilly according to the caller's criteria. If nFails gets big enough,
+// the result was unsatisfactorily according to the caller's criteria. If nFails gets big enough,
 // this function will start returning fresh random Ints which should satisfy the criteria eventually.
 //
 {
