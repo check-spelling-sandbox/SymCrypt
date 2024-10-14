@@ -3621,7 +3621,7 @@ SymCryptMarvin32Selftest(void);
 //      The increment function treats the last 8 bytes of the pbChainingValue string as an integer
 //      in most-significant-byte-first format, and increments this integer.
 //      Thus, the last byte is incremented the fastest.
-//      The pbSrc and pbDst buffers may be identical or non-overalapping, but they may not partially overlap.
+//      The pbSrc and pbDst buffers may be identical or non-overlapping, but they may not partially overlap.
 //      cbData must be a multiple of the block size.
 //
 //
