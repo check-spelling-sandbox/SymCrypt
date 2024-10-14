@@ -5375,7 +5375,7 @@ SymCryptSrtpKdfSelfTest(void);
 // SymCryptHkdfPrkExpandKey to produce the final (MAC) key to be used by the
 // "HKDF-Expand" function, without exposing the PRK to the caller.
 //
-// SymCryptHkdfDerive takes as inpt the final MAC key and the optional info. It
+// SymCryptHkdfDerive takes as input the final MAC key and the optional info. It
 // performs the rest of the "HKDF-Expand" function to produce the HKDF result.
 //
 
