@@ -8560,7 +8560,7 @@ SymCryptXmsskeySetValue(
 //       If an invalid flag is specified, or SYMCRYPT_FLAG_XMSSKEY_VERIFY_ROOT is
 //      specified when setting a public key
 // 
-//      - SYMCRYPT_INLVALID_BLOB
+//      - SYMCRYPT_INVALID_BLOB
 //       If the XMSS algorithm ID in the key blob does not match the algorithm ID
 //      used in creating the key object pointed to by pKey
 // 
